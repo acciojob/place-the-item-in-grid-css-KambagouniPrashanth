@@ -1,8 +1,8 @@
 
 /* Your CSS Code here. */
-.container{
+.holder{
 	display:grid;
-	gap:10px 10px;
+/* 	gap:10px 10px; */
 	
 	grid-template-columns: repeat(2,200px);
 	grid-template-row: repeat(2,200px);
