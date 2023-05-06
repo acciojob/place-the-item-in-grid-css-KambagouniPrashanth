@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+.container{
+	display:grid;
+	gap:10px 10px;
+	
+	grid-template-columns: repeat(2,200px);
+	grid-template-row: repeat(2,200px);
+	
+}
+.item{
+	background-color:blue;
+	border:1px solid black;
+}
