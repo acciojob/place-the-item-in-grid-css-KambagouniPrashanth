@@ -1,6 +1,6 @@
 
 /* Your CSS Code here. */
-holder{
+.holder{
 	display:grid;
 /* 	gap:10px 10px; */
 	row-gap:10px;
