@@ -1,14 +1,19 @@
 
 /* Your CSS Code here. */
-.holder{
+holder{
 	display:grid;
 /* 	gap:10px 10px; */
+	row-gap:10px;
+	column-gap:10px;
 	
 	grid-template-columns: repeat(2,200px);
 	grid-template-row: repeat(2,200px);
 	
 }
-/* .item{
+.item{
 	background-color:blue;
-	border:1px solid black;
-} */
+	border:2px solid black;
+	color:white;
+	text-align:center;
+
+} 
